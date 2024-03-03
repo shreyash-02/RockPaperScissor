@@ -72,3 +72,11 @@ img{
   padding: 1rem;
   border-radius: 1rem;
 }
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .choices {
+        flex-direction: column; /* Change direction to vertical for smaller screens */
+    }
+}
