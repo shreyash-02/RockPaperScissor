@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;  /*heading ko center me lane k liye*/
+}
+
+.choice{
+    height: 185px;
+    width: 185px;
+    border-radius: 50%; /*image k piche circle wali shadow dikhane k liye div ko b circle bna diya */
+    display: flex;
+    justify-content: center; /* to fit img in choice div properly */
+    align-items: center;   
+} 
+
+.choice:hover{
+    /* opacity: 90%; */
+    cursor: pointer;
+    background-color:black;
+}
+
+img{
+    height: 165px;
+    width: 165px;
+    object-fit: cover; /* to fit image properly */
+    border-radius: 50%;  /*to make img round */
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 5rem;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center; /*for horizontal*/
+    align-items: center; /* for vertical */
+    font-size: 3rem;
+    margin-top: 4rem;
+    gap: 7rem;
+}  
+
+.msg-container{
+    margin-top: 5rem;
+    /* display: flex;
+    justify-content: center; /* to fit img in choice div properly */
+    /* align-items: center; 
+    transition: transform 0.3s; */
+    
+}
+
+/* .msg-container:hover{
+    cursor: pointer;
+    transform: scale(1.05); 
+} */
+
+#msg{
+  background-color: #081b31;
+  color: #fff;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+}
