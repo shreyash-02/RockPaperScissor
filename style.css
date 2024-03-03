@@ -79,4 +79,20 @@ img{
     .choices {
         flex-direction: column; /* Change direction to vertical for smaller screens */
     }
+
+    .choice {
+        height: 30vw; /* Increase height for better touch interaction on smaller screens */
+        width: 30vw; /* Increase width for better touch interaction on smaller screens */
+    }
+
+    .score-board {
+        font-size: 5vw; /* Increase font size for better readability on smaller screens */
+        gap: 10vw; /* Increase gap between items for better spacing on smaller screens */
+    }
+
+    #msg {
+        font-size: 3vw; /* Increase font size for better readability on smaller screens */
+        padding: 2vw; /* Increase padding for better spacing on smaller screens */
+        border-radius: 2vw; /* Increase border radius for better aesthetics on smaller screens */
+    }
 }
